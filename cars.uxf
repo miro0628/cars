@@ -1,0 +1,18 @@
+<diagram program="umletino" version="15.1"><zoom_level>11</zoom_level><element><id>UMLClass</id><coordinates><x>56</x><y>33</y><w>110</w><h>209</h></coordinates><panel_attributes>car
+--
+Fabrikat:str
+Color:str
+Lager:int
+--
+setFabrikat(str)
+getFabrikat():str
+setColor(str)
+getColor():str
+setLager(int)
+getLager():int</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>375</x><y>55</y><w>110</w><h>209</h></coordinates><panel_attributes>main.py
+--
+looping:boolean
+carlist[]
+--
+main() program</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>144</x><y>143</y><w>264</w><h>44</h></coordinates><panel_attributes>lt=&lt;-
+m1=0..n</panel_attributes><additional_attributes>10;10;220;10</additional_attributes></element></diagram>
