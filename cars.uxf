@@ -4,6 +4,7 @@ Fabrikat:str
 Color:str
 Lager:int
 --
+initconstructor
 setFabrikat(str)
 getFabrikat():str
 setColor(str)
